@@ -33,6 +33,30 @@ const blogData = [
     comments: 246,
     title: "Designing Engaging User Interfaces for Modern Web Apps",
     link: "#",
+  },
+  {
+    id: 2,
+    image: img2,
+    date: "15 Nov, 2020",
+    comments: 180,
+    title: "The Future of Frontend Development: Trends to Watch in 2021",
+    link: "#",
+  },
+  {
+    id: 3,
+    image: img3,
+    date: "10 Dec, 2020",
+    comments: 320,
+    title: "How to Create Responsive Web Designs That Delight Users",
+    link: "#",
+  },
+  {
+    id: 4,
+    image: img4,
+    date: "5 Jan, 2021",
+    comments: 150,
+    title: "Mastering CSS Grid: A Guide to Building Complex Layouts",
+    link: "#",
   }
 ];
 // Jika ingin menambahkan lebih banyak postingan blog, tambahkan objek ke array blogData di atas.

@@ -5,15 +5,36 @@ import card3 from "../../assets/images/portfolio-images/card-3.png";
 import card4 from "../../assets/images/portfolio-images/card-4.png";
 import card5 from "../../assets/images/portfolio-images/card-5.png";
 import card6 from "../../assets/images/portfolio-images/card-6.png";
+import card7 from "../../assets/images/portfolio-images/project-1.png";
+import card8 from "../../assets/images/portfolio-images/project-2.png";
+import card9 from "../../assets/images/portfolio-images/project-3.png";
 
 const projectData = [
   {
     id: 1,
-    image: card6,
-    category: "Frontend",
-    title: "Admin Dashboard",
+    image: card7,
+    category: "Fullstack",
+    title: "E-Commerce Website",
     description:
-      "Dashboard admin yang dirancang untuk memudahkan pengelolaan produk.",
+      "Sebuah platform e-commerce lengkap dengan fitur keranjang belanja, pembayaran, dan manajemen produk. Dibangun menggunakan Laravel versi 12 dan menggunakan database MySQL untuk penyimpanan data.",
+    link: "https://rynskolafit.dpdns.org/",
+  },
+  {
+    id: 2,
+    image: card8,
+    category: "Fullstack",
+    title: "Sistem Manajemen Barang",
+    description:
+      "Sistem manajemen barang berbasis web yang memungkinkan pengguna untuk mengelola stok barang. Dibangun menggunakan Laravel versi 12 dan database MySQL.",
+    link: "#",
+  },
+  {
+    id: 3,
+    image: card9,
+    category: "Fullstack",
+    title: "Blog Sistem",
+    description:
+      "Aplikasi blog sederhana yang memungkinkan pengguna untuk membuat dan mengelola postingan blog. Dibangun menggunakan Laravel versi 12 dan database MySQL.",
     link: "#",
   }
 ];
